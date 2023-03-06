@@ -20,7 +20,7 @@ nav{
     text-align: center;
 }
 
-.nav{
+.nav-top{
    flex: 0 0 300px;
    margin-top: 7px;
 }
@@ -112,6 +112,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 2px;
+    max-width: 1200px;
 }
 
 .salmon{
@@ -128,22 +129,33 @@ nav{
     max-width: 1200px;
 }
 
-.nav-foot{
+.container-nav{
+    background-color:darkslategray ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-top: 2px;
+}
+
+.nav-bottom{
     background-color: aqua;
-    height: 50px;
-    width: 45%;
+    width: 60%;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-foot {
-    background-color:salmon ;
-    text-align: left;
-    padding: 5px;
+.logo{
+    background-color: salmon;
+    width: 40px;
+    height: 20px;
+    
 }
 
-.button-foot{
-    text-align: right;
-    background-color:salmon
+.button{
+    background-color: salmon;
+    width: 40px;
+    height: 20px;
 }
