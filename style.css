@@ -95,14 +95,14 @@ nav{
     background-color: green;
 }
 
-footer{
+.footer-container{
     background-color: darkslategray;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.footer-container{
+.footer-info{
     height: 600px;
     width: 80%;
     display: flex;
@@ -113,13 +113,13 @@ footer{
 
 .salmon{
     background-color: salmon;
-    width:300px ;
+    width: 20% ;
     height: 450px;
 }
 
 .lightblue{
     background-color: lightblue;
-    width:300px ;
+    width: 13% ;
     height: 450px;
 }
 
