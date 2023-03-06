@@ -4,7 +4,6 @@
     box-sizing: border-box;
 } 
 
-
 header{
     background-color: aquamarine;
     height: 4em; 
@@ -44,7 +43,8 @@ nav{
     background-color: pink;
     height: 80% ;
     width: 60%;
-    margin: auto;
+    margin:0 auto;
+    max-width: 1200px;
 }
 
 .box-container{
@@ -59,13 +59,14 @@ nav{
     background-color: pink;
     height: 80%;
     flex: 0 0 20%;
+    max-width: 1200px;
 }
 
 .blu{
     background-color: #1E90FF;
     height: 80%;
     flex: 0 0 40%;
-
+    max-width: 1200px;
 }
 
 .box-container2{
@@ -93,13 +94,15 @@ nav{
     height: 90%;
     width: 60%;
     background-color: green;
+    max-width: 1200px;
+    margin:0 auto;
 }
 
 .footer-container{
     background-color: darkslategray;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;  
 }
 
 .footer-info{
@@ -113,29 +116,31 @@ nav{
 
 .salmon{
     background-color: salmon;
-    width: 20% ;
+    width: 15% ;
     height: 450px;
+    max-width: 1200px;
 }
 
 .lightblue{
     background-color: lightblue;
-    width: 13% ;
+    width: 10% ;
     height: 450px;
+    max-width: 1200px;
 }
 
 .nav-foot{
     background-color: aqua;
-    height: 30px;
-    width: 40%;
+    height: 50px;
+    width: 45%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-
+    align-items: center;
 }
 
 .logo-foot {
     background-color:salmon ;
     text-align: left;
+    padding: 5px;
 }
 
 .button-foot{
