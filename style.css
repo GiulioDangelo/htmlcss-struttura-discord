@@ -82,7 +82,7 @@ nav{
 }
 
 .green-container{
-    background-color: gray;
+    background-color: #D3D3D3;
     height: 800px;
     display: flex; 
     justify-content: center;
@@ -95,23 +95,50 @@ nav{
     background-color: green;
 }
 
-.footer-container{
+footer{
     background-color: darkslategray;
-    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-container{
+    height: 600px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3px;
+    gap: 2px;
 }
 
 .salmon{
     background-color: salmon;
     width:300px ;
-    height: 650px;
+    height: 450px;
 }
 
 .lightblue{
     background-color: lightblue;
     width:300px ;
-    height: 650px;
+    height: 450px;
+}
+
+.nav-foot{
+    background-color: aqua;
+    height: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.logo-foot {
+    background-color:salmon ;
+    text-align: left;
+}
+
+.button-foot{
+    text-align: right;
+    background-color:salmon
 }
