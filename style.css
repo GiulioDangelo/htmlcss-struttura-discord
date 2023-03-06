@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aquamarine;
+    height: 4em;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    background-color:orange;
+    height: 2em;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+}
+
+.nav{
+   flex: 0 0 200px;
+   margin-top: 7px;
+   
+}
