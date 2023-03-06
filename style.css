@@ -91,7 +91,27 @@ nav{
 
 .green{
     height: 90%;
-    width: 80%;
+    width: 60%;
     background-color: green;
- 
+}
+
+.footer-container{
+    background-color: darkslategray;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.salmon{
+    background-color: salmon;
+    width:300px ;
+    height: 650px;
+}
+
+.lightblue{
+    background-color: lightblue;
+    width:300px ;
+    height: 650px;
 }
