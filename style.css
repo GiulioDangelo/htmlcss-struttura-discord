@@ -84,13 +84,14 @@ nav{
 .green-container{
     background-color: gray;
     height: 800px;
-    display: flex;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .green{
     height: 90%;
     width: 80%;
     background-color: green;
-    justify-content: center;
-    align-items: center;
+ 
 }
