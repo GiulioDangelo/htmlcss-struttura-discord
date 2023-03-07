@@ -40,7 +40,7 @@ nav{
 }
 
 .box-home{
-    background-color: pink;
+    background-color: #EE82EE;
     height: 80% ;
     width: 60%;
     margin:0 auto;
@@ -50,7 +50,6 @@ nav{
 .box-container{
     height: 700px;
     display: flex;
-    flex:  0 0 100%;
     justify-content: center;
     align-items: center;
 }
@@ -72,7 +71,6 @@ nav{
 .box-container2{
     height: 700px;
     display: flex;
-    flex:  0 0 100%;
     justify-content: center;
     align-items: center; 
     background-color: gray;
@@ -99,7 +97,7 @@ nav{
 }
 
 .footer-container{
-    background-color: darkslategray;
+    background-color: #23272A;
     display: flex;
     justify-content: center;  
 }
@@ -129,7 +127,7 @@ nav{
 }
 
 .container-nav{
-    background-color:darkslategray ;
+    background-color:#23272A ;
     height: 60px;
     display: flex;
     justify-content: center;
