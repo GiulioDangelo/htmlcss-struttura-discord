@@ -101,31 +101,30 @@ nav{
 .footer-container{
     background-color: darkslategray;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;  
 }
 
 .footer-info{
     height: 600px;
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2px;
+    gap: 3px;
     max-width: 1200px;
 }
 
 .salmon{
     background-color: salmon;
-    width: 15% ;
-    height: 450px;
+    flex: 0 0 40%;
+    height: 550px;
     max-width: 1200px;
 }
 
 .lightblue{
     background-color: lightblue;
-    width: 10% ;
-    height: 450px;
+    flex: 0 0 15%;
+    height: 550px;
     max-width: 1200px;
 }
 
